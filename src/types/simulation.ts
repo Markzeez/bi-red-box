@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react'
+
 export type GameType =
   | 'NAP'
   | 'PERM'
@@ -10,7 +12,7 @@ export type GameStatus =
   | 'completed'
 
 export interface Game {
-  completed: any
+  completed: boolean
   name: ReactNode
   id: string
   number: number

@@ -3,8 +3,9 @@ import { useKeyboard } from './hooks/useKeyboard'
 import { Header } from './components/Header'
 import { StatusBar } from './components/terminal/statusBar'
 import { TicketSummary } from './components/summary/TicketSummary'
-import { Terminal } from './components/terminal/terminal'
 import { ConfirmModal } from './modal/ConfirmModal'
+import { Terminal } from './components/terminal/terminal'
+
 
 
 

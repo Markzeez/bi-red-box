@@ -9,25 +9,19 @@ import {
 import { useSimulationStore } from '../../store/simulationStore'
 
 export function ActionButtons() {
-  const cancelInput = useSimulationStore(
-    (state) => state.cancel ?? (() => undefined),
-  )
+  const cancelInput = () => undefined
 
-  const stakeGame = useSimulationStore(
-    (state) => state.stakeGame,
-  )
+  const stakeGame = () => undefined
 
   const addGame = useSimulationStore(
-    (state) => state.addGame,
+    (state) => state.addNewGame,
   )
 
   const finish = useSimulationStore(
-    (state) => state.finish,
+    (state) => state.finishGame,
   )
 
-  const print = useSimulationStore(
-    (state) => state.print,
-  )
+  const print = () => window.print()
 
   return (
     <div className="grid grid-cols-2 gap-2 pt-2 sm:grid-cols-4">
