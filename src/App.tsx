@@ -4,7 +4,8 @@ import { Header } from './components/Header'
 import { StatusBar } from './components/terminal/statusBar'
 import { TicketSummary } from './components/summary/TicketSummary'
 import { ConfirmModal } from './modal/ConfirmModal'
-import { Terminal } from './components/terminal/terminal'
+import { Terminal } from './components/terminal/Terminal'
+// import { Terminal } from './components/terminal/terminal'
 
 
 
